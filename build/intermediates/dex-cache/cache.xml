@@ -1,0 +1,572 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="C:\Users\Amaury\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\25.1.0\support-annotations-25.1.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="64cb6b229a8bdfd907bc8dd46839a0053e4c018d">
+        <dex dex="Z:\AndroidStudioProjects\GeoPhoto\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-25.1.0_9b27537c54d2a47e9971114004469d40bc5eecf7\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="Z:\AndroidStudioProjects\GeoPhoto\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-wallet\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="2d5d113b0352ab60946fc44c518cf68fd26cbb79">
+        <dex dex="Z:\AndroidStudioProjects\GeoPhoto\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-wallet-10.0.1_a346f2d23c370e6a6c74124cba220c1110ab8fef\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="Z:\AndroidStudioProjects\GeoPhoto\app\build\intermediates\exploded-aar\com.google.firebase\firebase-storage\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="dd39827d2067497e60e21da48a7926000b6d4b0c">
+        <dex dex="Z:\AndroidStudioProjects\GeoPhoto\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-storage-10.0.1_9071662e8b151e5967fbd092caddfda5c1d7c3ca\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="Z:\AndroidStudioProjects\GeoPhoto\app\build\intermediates\exploded-aar\com.android.support\palette-v7\24.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="734e80dffea7bd76c18ae256822a124c30d85850">
+        <dex dex="Z:\AndroidStudioProjects\GeoPhoto\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-palette-v7-24.0.0_177593dc9ef759b598c2e863fd6635557a11597a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="Z:\AndroidStudioProjects\GeoPhoto\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.1.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0a0ef86b7fa568a52bf6214a0326ca1f1d618da7">
+        <dex dex="Z:\AndroidStudioProjects\GeoPhoto\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-utils-25.1.0_6b6fa003439672d9d232266c1cec9a6e4fa93763\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="Z:\AndroidStudioProjects\GeoPhoto\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-panorama\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="92c871a22463a247e8a77a9f3fd231c278788c4a">
+        <dex dex="Z:\AndroidStudioProjects\GeoPhoto\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-panorama-10.0.1_3f28a8e31b10626d21820517f3cee75720d9d842\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="Z:\AndroidStudioProjects\GeoPhoto\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\25.1.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6fb6ac3e8d3b9013819920d9ea11f3803c4c0033">
+        <dex dex="Z:\AndroidStudioProjects\GeoPhoto\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-25.1.0_25d8d28f1310e39de1d899a774a244d0f1fc7c8a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="Z:\AndroidStudioProjects\GeoPhoto\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-gass\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="57c2eceb8548de84509d1ebc293fedec53231f6c">
+        <dex dex="Z:\AndroidStudioProjects\GeoPhoto\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-gass-10.0.1_a232ea185af04ad4dcbb93b0c46d788f93bd3bbf\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="Z:\AndroidStudioProjects\GeoPhoto\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-plus\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c14f0c89f28cf782e42581ab0aba5f63af39b3d2">
+        <dex dex="Z:\AndroidStudioProjects\GeoPhoto\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-plus-10.0.1_949219b202a5d71a5a079ee0cfdb7706c8c2d6f1\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="Z:\AndroidStudioProjects\GeoPhoto\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-tagmanager-api\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b1df8fa3d372a27e4e969ce00b00689ee1eed031">
+        <dex dex="Z:\AndroidStudioProjects\GeoPhoto\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-tagmanager-api-10.0.1_8dcf7caf375aeb41473a276b56ed786eb7e10a31\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="Z:\AndroidStudioProjects\GeoPhoto\app\build\intermediates\exploded-aar\com.google.firebase\firebase-messaging\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="4b17463c814bdc562fb0392fa3494063623a0904">
+        <dex dex="Z:\AndroidStudioProjects\GeoPhoto\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-messaging-10.0.1_cb21f3a0bd84f1d531aa4bc29bd2d567edfd8a63\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="Z:\AndroidStudioProjects\GeoPhoto\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-vision\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ba6aa5e69ef31dee57208125323cee958fc67565">
+        <dex dex="Z:\AndroidStudioProjects\GeoPhoto\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-vision-10.0.1_a3d940bcf34b864e5f2afa68027f615fd799fe5f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="Z:\AndroidStudioProjects\GeoPhoto\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-tasks\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6addaba208e21c6da776d0ca75b6b23a6ccd5499">
+        <dex dex="Z:\AndroidStudioProjects\GeoPhoto\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-tasks-10.0.1_3b629c6be5ed66f9b0499274d997f94c581c6fcb\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="Z:\AndroidStudioProjects\GeoPhoto\app\build\intermediates\exploded-aar\com.android.support\support-v4\25.1.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="Z:\AndroidStudioProjects\GeoPhoto\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-25.1.0_a7a9cb730116d36c6dfc28262ff04fe73885b806\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="Z:\AndroidStudioProjects\GeoPhoto\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-nearby\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c6e1f361e9d61aece9dac39b77fcc98a337a144d">
+        <dex dex="Z:\AndroidStudioProjects\GeoPhoto\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-nearby-10.0.1_38b6ad56d704bb5727e5249c620839acbb915c55\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="Z:\AndroidStudioProjects\GeoPhoto\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-clearcut\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="1d193729baf37df3d902a423291423a0df7e3779">
+        <dex dex="Z:\AndroidStudioProjects\GeoPhoto\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-clearcut-10.0.1_30574c13acbe8e3ad08bb50c0de3e66f10e61abd\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="Z:\AndroidStudioProjects\GeoPhoto\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.1.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="aee64634871d88a419d59eb743c1258a60f19700">
+        <dex dex="Z:\AndroidStudioProjects\GeoPhoto\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-ui-25.1.0_c0f445fac8008c40bbe279a13a4b13e668d28712\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="Z:\AndroidStudioProjects\GeoPhoto\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="756f6297eef79784f5e356dcd4f39865028b2bd0">
+        <dex dex="Z:\AndroidStudioProjects\GeoPhoto\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-basement-10.0.1_76b8a79c6f9cf9050dcea4826676c3f8b377332c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="Z:\AndroidStudioProjects\GeoPhoto\app\build\intermediates\exploded-aar\com.google.firebase\firebase-database\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="8f128aeeb7e31271b28a7adb9dac1f3a6ed9f5e7">
+        <dex dex="Z:\AndroidStudioProjects\GeoPhoto\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-database-10.0.1_f6f33dba412431d62d5c136932c9e0768d149102\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="Z:\AndroidStudioProjects\GeoPhoto\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="27777b3cad3c20b1acab19f6e37fe3e03371bf6e">
+        <dex dex="Z:\AndroidStudioProjects\GeoPhoto\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-maps-10.0.1_a6a4e7a4fc87aaf0b807a94f041a4a1e71c5b794\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="Z:\AndroidStudioProjects\GeoPhoto\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-games\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="1e11c68fec92a17c84dd8d1dd80e74c4e67b12e2">
+        <dex dex="Z:\AndroidStudioProjects\GeoPhoto\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-games-10.0.1_ddf11514c4ad200e70a4714b34cde335052f9be7\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="Z:\AndroidStudioProjects\GeoPhoto\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads-lite\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b955cb3a1ad6f1b6ff728ce1e0cd592c1717b440">
+        <dex dex="Z:\AndroidStudioProjects\GeoPhoto\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-ads-lite-10.0.1_2474e94df6856db0e0b0e8356287c82b08e33b15\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="Z:\AndroidStudioProjects\GeoPhoto\app\build\intermediates\exploded-aar\com.android.support\mediarouter-v7\24.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b327fbe2fad414bc38cf0ce8f7efe1a38f572837">
+        <dex dex="Z:\AndroidStudioProjects\GeoPhoto\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-mediarouter-v7-24.0.0_0d97ca143532c4928f67d5b2fb8caf35e6565204\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="Z:\AndroidStudioProjects\GeoPhoto\app\build\intermediates\exploded-aar\com.google.firebase\firebase-auth\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="9cca2818594cc5348806d6662133491e7ea0fa8d">
+        <dex dex="Z:\AndroidStudioProjects\GeoPhoto\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-auth-10.0.1_f8918a06b671c804d653bc3ac4ab20bf4c27355e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="Z:\AndroidStudioProjects\GeoPhoto\app\build\intermediates\exploded-aar\com.google.firebase\firebase-config\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ffc15e965a9e8c28f24455eedd4cac215c45d1fc">
+        <dex dex="Z:\AndroidStudioProjects\GeoPhoto\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-config-10.0.1_ad151f422376ff427768b4906b5279589b489dbe\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="Z:\AndroidStudioProjects\GeoPhoto\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.1.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="f02263e35e52668dd17b73bf961437e3d562b35f">
+        <dex dex="Z:\AndroidStudioProjects\GeoPhoto\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-media-compat-25.1.0_6ff0e21ca24a3dbbd5dff196146e39ee75a645a6\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="Z:\AndroidStudioProjects\GeoPhoto\app\build\intermediates\exploded-aar\com.google.firebase\firebase-storage-common\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="09cf6aa1390f95157e8295d02be7868f568825fc">
+        <dex dex="Z:\AndroidStudioProjects\GeoPhoto\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-storage-common-10.0.1_56e1fdda72a0ad51fcc1308fe49e64bc4a0c9976\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="Z:\AndroidStudioProjects\GeoPhoto\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics-impl\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6116e0e7069de7fc259aac8e08b84f32c2038231">
+        <dex dex="Z:\AndroidStudioProjects\GeoPhoto\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-analytics-impl-10.0.1_65b24bdf2917735b1c2db7def416a19ea1b5f489\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="Z:\AndroidStudioProjects\GeoPhoto\app\build\intermediates\exploded-aar\com.google.firebase\firebase-crash\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="de29a39f9260f88151b1ef453140e71c76b6c415">
+        <dex dex="Z:\AndroidStudioProjects\GeoPhoto\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-crash-10.0.1_006af8f5491bacd1a783336a1499a9fb22fe7e0d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="Z:\AndroidStudioProjects\GeoPhoto\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-fitness\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="7a64bf6dc775198eed9db9468a133adf7dfe6562">
+        <dex dex="Z:\AndroidStudioProjects\GeoPhoto\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-fitness-10.0.1_bd10c6e54c4c5fe9f9d67e833908a75701e43650\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="Z:\AndroidStudioProjects\GeoPhoto\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-tagmanager\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="971509bbe30bb7b971fc1c49d7b23d0d818830ac">
+        <dex dex="Z:\AndroidStudioProjects\GeoPhoto\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-tagmanager-10.0.1_4d8f9ab96ea60ec715dced8ba9ccdd42d8dfc36c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="Z:\AndroidStudioProjects\GeoPhoto\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.1.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ca3c7aa31e2726a400a6e552b93cb9f63c9a1e6d">
+        <dex dex="Z:\AndroidStudioProjects\GeoPhoto\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-compat-25.1.0_71bea7b50a5b8d8b44d6d13a5dd3de99b5f4650a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="Z:\AndroidStudioProjects\GeoPhoto\app\build\intermediates\exploded-aar\com.google.firebase\firebase-database-connection\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="8010ae6ed32828a145b25ec97bc07b7a83c6318f">
+        <dex dex="Z:\AndroidStudioProjects\GeoPhoto\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-database-connection-10.0.1_e59a3265462e7117642823c3b654b3403b32e758\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="Z:\AndroidStudioProjects\GeoPhoto\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-auth-base\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e96c6974cf924e7ee3b230e6847d5731423388c9">
+        <dex dex="Z:\AndroidStudioProjects\GeoPhoto\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-auth-base-10.0.1_d6aa275dec378d44f8314679da066af575eee72f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="Z:\AndroidStudioProjects\GeoPhoto\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-analytics\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="4c829ff0ccfecb28a999ee46d9e75948dfc777a4">
+        <dex dex="Z:\AndroidStudioProjects\GeoPhoto\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-analytics-10.0.1_2ef5aefc45c2bfe990a0d973ef96b69226c9d8c6\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="Z:\AndroidStudioProjects\GeoPhoto\app\build\intermediates\exploded-aar\com.android.support\mediarouter-v7\24.0.0\jars\libs\internal_impl-24.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b6763651ec29b4c95e7bbe63fc393ffcc8c4c2c5">
+        <dex dex="Z:\AndroidStudioProjects\GeoPhoto\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.0.0_3ce89c3e833ce453790cd753981e29511238a78d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="Z:\AndroidStudioProjects\GeoPhoto\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-identity\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="a48dc0b148059764d32500be558702d5ff932058">
+        <dex dex="Z:\AndroidStudioProjects\GeoPhoto\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-identity-10.0.1_90a015d2b7dcd2e020ae647a4d7590ca16ca30d7\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="Z:\AndroidStudioProjects\GeoPhoto\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\25.1.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="1630658fbc2d222b988603c27b4a4249586fbfe7">
+        <dex dex="Z:\AndroidStudioProjects\GeoPhoto\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-25.1.0_889ca98833517e9b75f7c6e9a1170e9eec639d9a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="Z:\AndroidStudioProjects\GeoPhoto\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d0460bf07cc3657e0be518ca01c174493951c6b8">
+        <dex dex="Z:\AndroidStudioProjects\GeoPhoto\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-ads-10.0.1_5bff893b5ff9583e6e2d8248e2d69e52a7032130\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="Z:\AndroidStudioProjects\GeoPhoto\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-awareness\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="4385ccc0a88b33d182a836eadb47be55c8eb1107">
+        <dex dex="Z:\AndroidStudioProjects\GeoPhoto\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-awareness-10.0.1_68b5fc9d36e8d5971e3dac44d24995c638205c39\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="Z:\AndroidStudioProjects\GeoPhoto\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-places\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="f3e51e9c5233b8897f61e08a6a27bc36283c2724">
+        <dex dex="Z:\AndroidStudioProjects\GeoPhoto\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-places-10.0.1_46131d8550f1fffc79cfeb58e4e0c1b0617e3d02\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="Z:\AndroidStudioProjects\GeoPhoto\app\build\intermediates\exploded-aar\com.google.firebase\firebase-common\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="eb0d830e3eabb9deb9ec44869cf7ac7ea1ad794c">
+        <dex dex="Z:\AndroidStudioProjects\GeoPhoto\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-common-10.0.1_296484291fdc6f4c2c9d77ac64f48159f11b35a0\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="Z:\AndroidStudioProjects\GeoPhoto\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-tagmanager-v4-impl\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="f23ad0f8e58713ff4b55f61c0bbde3830378347c">
+        <dex dex="Z:\AndroidStudioProjects\GeoPhoto\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-tagmanager-v4-impl-10.0.1_fe20755b10a7a75ee6943ddb34dabcb2b064d82c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="Z:\AndroidStudioProjects\GeoPhoto\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-gcm\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="8308ed003522a2ee8958311afcc4cfd0470377cd">
+        <dex dex="Z:\AndroidStudioProjects\GeoPhoto\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-gcm-10.0.1_74325ebde7eafdd4470214be2ac4f76d110d3708\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="Z:\AndroidStudioProjects\GeoPhoto\app\build\intermediates\exploded-aar\com.google.firebase\firebase-iid\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="486371f97baad8e607f332f20fee1d3dd00a731a">
+        <dex dex="Z:\AndroidStudioProjects\GeoPhoto\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-iid-10.0.1_d8c8e44aacb0879306f709e6d3b1a49473823be9\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="Z:\AndroidStudioProjects\GeoPhoto\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-cast-framework\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="df1cb17511aabbb63264a0024949d1e42502a512">
+        <dex dex="Z:\AndroidStudioProjects\GeoPhoto\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-cast-framework-10.0.1_e0f1fe64da3f3cefbcbac20d7fbcbe67f9f2fc94\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="Z:\AndroidStudioProjects\GeoPhoto\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\25.1.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e79aa3d9a16f8c9f16377c0608de70a8f31e5d80">
+        <dex dex="Z:\AndroidStudioProjects\GeoPhoto\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-25.1.0_554e1ec755a2bf58f011a150c8e33357b053a1d1\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="Z:\AndroidStudioProjects\GeoPhoto\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="a8131a14de658bba27cb68bd87ef1fbbba06c20f">
+        <dex dex="Z:\AndroidStudioProjects\GeoPhoto\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_3aa848f80ef1711d472ff9a4d0fb7ff7ff8ae9ad\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="Z:\AndroidStudioProjects\GeoPhoto\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-wearable\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="408a599ac77cd17fe8e8919326bec617b3d005bd">
+        <dex dex="Z:\AndroidStudioProjects\GeoPhoto\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-wearable-10.0.1_bcc19989541d0a3e39582f72df0fc86692940055\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="Z:\AndroidStudioProjects\GeoPhoto\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.1.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="2a53c4f3518116b8c6aee0e477233f0f7da8616f">
+        <dex dex="Z:\AndroidStudioProjects\GeoPhoto\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-fragment-25.1.0_cf05398158a2a62e4e760390b1ea64ddd390d213\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="Z:\AndroidStudioProjects\GeoPhoto\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="200e72f4025d6023375c722a5f437db1d2c11ea9">
+        <dex dex="Z:\AndroidStudioProjects\GeoPhoto\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_9fac9456e9fe1d1ceaab1c893c46725ba99db8fa\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="Z:\AndroidStudioProjects\GeoPhoto\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-cast\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="771267c5b0c7a5b348d3205dcfa1f871af7e0177">
+        <dex dex="Z:\AndroidStudioProjects\GeoPhoto\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-cast-10.0.1_3001f6de8997233af64793788491321be8181f9f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="Z:\AndroidStudioProjects\GeoPhoto\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-safetynet\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="f6cf557be4dbd0282ea2388633e5378634423226">
+        <dex dex="Z:\AndroidStudioProjects\GeoPhoto\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-safetynet-10.0.1_fb189bed771b8a449329e5b3175897b0224587c2\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="Z:\AndroidStudioProjects\GeoPhoto\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="25438f55fc6d906a0e72f30b21487541430ede43">
+        <dex dex="Z:\AndroidStudioProjects\GeoPhoto\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-base-10.0.1_4a27b28e2cc119b1c3a4c7777318892db3ad0d88\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="Z:\AndroidStudioProjects\GeoPhoto\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="433f4d6aa5f21f19552afe0e6c5eff0fedba73ad">
+        <dex dex="Z:\AndroidStudioProjects\GeoPhoto\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-analytics-10.0.1_d066a2ba70dc41da8dd31923edcc4abfa058ce50\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="Z:\AndroidStudioProjects\GeoPhoto\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-iid\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6bb5d347ebc0c6ef3c83a905222a688da5d2f7b4">
+        <dex dex="Z:\AndroidStudioProjects\GeoPhoto\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-iid-10.0.1_41d7d840e45220a5750a30d1741af99cb0220804\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="Z:\AndroidStudioProjects\GeoPhoto\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-auth\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e2185aff89caeb337b1ffc36d5e525d8318e7cfe">
+        <dex dex="Z:\AndroidStudioProjects\GeoPhoto\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-auth-10.0.1_b34dedc5ba5f19704dc03968c226d760a9384929\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="Z:\AndroidStudioProjects\GeoPhoto\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-instantapps\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="45305e6af414dab5aba6c3225081c2f15c3bdd1e">
+        <dex dex="Z:\AndroidStudioProjects\GeoPhoto\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-instantapps-10.0.1_1ef4808fe5a37247e27277b6c6882e9a196dd431\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="Z:\AndroidStudioProjects\GeoPhoto\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appinvite\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="39907d5c8f5902fffef30160ca7447c93b82405c">
+        <dex dex="Z:\AndroidStudioProjects\GeoPhoto\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-appinvite-10.0.1_e332dcef67c71328fafd1b8d7fb7955ce47c3bc2\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="Z:\AndroidStudioProjects\GeoPhoto\app\build\intermediates\exploded-aar\com.google.firebase\firebase-appindexing\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ae80d328a8548b4610ead6c624bab8c6a6984f5b">
+        <dex dex="Z:\AndroidStudioProjects\GeoPhoto\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-appindexing-10.0.1_40db386eb25bc927ab5ed70556ae61a84c451420\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="Z:\AndroidStudioProjects\GeoPhoto\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-location\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="44a694d4095be84c2888764b1f7256b385c030ad">
+        <dex dex="Z:\AndroidStudioProjects\GeoPhoto\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-location-10.0.1_ddc1efb72be4a44742815ab5a48c8c6b50ba0d3c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="Z:\AndroidStudioProjects\GeoPhoto\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-analytics-impl\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e871881b36b32e6bfd271a830c6eeb54ff0fc185">
+        <dex dex="Z:\AndroidStudioProjects\GeoPhoto\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-analytics-impl-10.0.1_df5bbc2b01b324d5265b7459ace5747d0deac889\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="Z:\AndroidStudioProjects\GeoPhoto\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-drive\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="028f8255cb977b29cdffbfcf05caa0459686120c">
+        <dex dex="Z:\AndroidStudioProjects\GeoPhoto\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-drive-10.0.1_7d65f8b25345aec1b22282d493204f1e7c1e043b\classes.dex" />
+    </item>
+
+</items>
