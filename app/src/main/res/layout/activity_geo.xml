@@ -18,13 +18,23 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true">
 
-        <Button
-            android:layout_width="match_parent"
+        <LinearLayout
+            android:orientation="horizontal"
             android:layout_height="40dp"
-            android:text="PHOTO"
-            android:id="@+id/b_picture"/>
+            android:layout_width="match_parent">
+            <Button
+                android:layout_width="200dp"
+                android:layout_height="40dp"
+                android:text="PHOTO"
+                android:id="@+id/b_picture"/>
 
+            <CheckBox
+                android:layout_width="150dp"
+                android:layout_height="40dp"
+                android:text="Envoyer courriel"
+                android:id="@+id/mail"/>
 
+        </LinearLayout>
         <fragment xmlns:android="http://schemas.android.com/apk/res/android"
             xmlns:tools="http://schemas.android.com/tools"
             android:id="@+id/map"

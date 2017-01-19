@@ -13,6 +13,7 @@ import android.support.v4.app.FragmentActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.CheckBox;
 import android.widget.Toast;
 
 import com.google.android.gms.maps.CameraUpdateFactory;
@@ -36,6 +37,8 @@ public class GeoActivity extends FragmentActivity implements OnMapReadyCallback,
     private GoogleMap mMap;
     private Location lastLocation;
     private Button b_picture;
+    private CheckBox chkbx_mail;
+    boolean send_mail = false;
     LocationManager locationManager;
     DataSource dataSource;
     PhotoDataAccessObject mPhotoDataAccessObject;
@@ -59,6 +62,7 @@ public class GeoActivity extends FragmentActivity implements OnMapReadyCallback,
     private void loadComponents(){
         locationManager = (LocationManager)getSystemService(Context.LOCATION_SERVICE);
         b_picture = (Button) findViewById(R.id.b_picture);
+        chkbx_mail =  (CheckBox) findViewById(R.id.mail);
     }
 
     private void setEventListeners(){
@@ -155,22 +159,37 @@ public class GeoActivity extends FragmentActivity implements OnMapReadyCallback,
     private View.OnClickListener photoEventListener = new View.OnClickListener() {
         @Override
         public void onClick(View v) {
-            //Si le GPS est actif, on agit normalement
-            if (lastLocation != null && locationManager.isProviderEnabled(LocationManager.GPS_PROVIDER)){
-                Intent intent = new Intent(GeoActivity.this, PhotoActivity.class);
-                intent.putExtra("lat", lastLocation.getLatitude());
-                intent.putExtra("lon", lastLocation.getLongitude());
-                startActivity(intent);
-            } else if(lastLocation != null && !locationManager.isProviderEnabled(LocationManager.GPS_PROVIDER)) {
+
+            send_mail = chkbx_mail.isChecked();
+
+            // Si on a accès à une localisation, on agit normalement
+            if (lastLocation != null){
+                double latit = 48.77;
+                double longit = 2.44;
+
+                //Si le GPS est actif, on agit normalement
+                if (locationManager.isProviderEnabled(LocationManager.GPS_PROVIDER)){
+                    latit = lastLocation.getLatitude();
+                    longit = lastLocation.getLongitude();
+
                 //Si pas de GPS, on change la position aléatoire à chaque photo, et ce sur une emprise proche de MLV
-                Random r = new Random();
-                double rLong = 2.44 + 0.44*r.nextDouble();
-                double rLat = 48.77 + 0.15*r.nextDouble();
+                } else if(!locationManager.isProviderEnabled(LocationManager.GPS_PROVIDER)) {
+
+                    //Génération aléatoire
+                    Random r = new Random();
+                    double rLong = 2.44 + 0.44 * r.nextDouble();
+                    double rLat = 48.77 + 0.15 * r.nextDouble();
+
+                    latit = rLat;
+                    longit = rLong;
+                }
 
                 Intent intent = new Intent(GeoActivity.this, PhotoActivity.class);
-                intent.putExtra("lat", rLat);
-                intent.putExtra("lon", rLong);
+                intent.putExtra("lat", latit);
+                intent.putExtra("lon", longit);
+                intent.putExtra("send_mail", send_mail);
                 startActivity(intent);
+
             } else{
                 //Sinon, on informe l'utilisateur que la photo est impossible (normalement, n'arrive jamais ou uniquement
                 //Au tout début du lancement de l'application

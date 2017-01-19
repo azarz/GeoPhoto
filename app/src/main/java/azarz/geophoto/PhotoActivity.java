@@ -41,6 +41,7 @@ public class PhotoActivity extends AppCompatActivity implements SurfaceHolder.Ca
     public int cameraId = 0;
     DataSource dataSource;
     PhotoDataAccessObject mPhotoDataAccessObject;
+    boolean send_mail;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -56,6 +57,9 @@ public class PhotoActivity extends AppCompatActivity implements SurfaceHolder.Ca
         double lat = intent.getExtras().getDouble("lat");
         double lon = intent.getExtras().getDouble("lon");
         position = new LatLng(lat, lon);
+
+        //Recupération du booléen d'envoi de courriel
+        send_mail = intent.getExtras().getBoolean("send_mail");
 
         // Init cameraView
         cameraView.getHolder().addCallback(this);
@@ -190,6 +194,10 @@ public class PhotoActivity extends AppCompatActivity implements SurfaceHolder.Ca
         //stockage des attributs de l'objet dans la base de données
         mPhotoDataAccessObject.insert(mPhoto1);
 
+        // Envoi de l'image par mail le cas échéant
+        if (send_mail){
+            //TODO: handle the email sendig
+        }
 
         // Close activity
         finish();
