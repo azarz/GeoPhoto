@@ -127,7 +127,7 @@ public class GeoActivity extends FragmentActivity implements OnMapReadyCallback,
             mMap.addMarker(new MarkerOptions().position(pos).alpha(0.7f)
                     .snippet(path)
                     .icon(BitmapDescriptorFactory.fromBitmap(thumbnail)));
-            mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(pos, 12.0f));
+            mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(pos, 10.0f));
         }
     }
 
