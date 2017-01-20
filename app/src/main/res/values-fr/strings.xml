@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">GeoPhoto</string>
-    <string name="email">Envoyer email</string>
+    <string name="email">Envoyer courriel</string>
     <string name="take_picture">PHOTO</string>
     <string name="title_activity_geo">GeoPhoto</string>
 </resources>
