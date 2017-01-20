@@ -1,4 +1,6 @@
 <resources>
     <string name="app_name">GeoPhoto</string>
     <string name="title_activity_geo">GeoPhoto</string>
+    <string name="take_picture">PHOTO</string>
+    <string name="email">Send email</string>
 </resources>

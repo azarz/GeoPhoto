@@ -116,7 +116,7 @@ public class GeoActivity extends FragmentActivity implements OnMapReadyCallback,
             // Position du marqueur
             LatLng pos = listPhotos.get(i).getPosition();
 
-            //Image correspondant au marqueur
+            //Chemin de l'image correspondant au marqueur
             String path = listPhotos.get(i).getPath();
 
             // Icone du marqueur

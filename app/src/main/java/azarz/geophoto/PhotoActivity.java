@@ -6,6 +6,7 @@ import android.graphics.BitmapFactory;
 import android.graphics.Matrix;
 import android.hardware.Camera;
 import android.media.ExifInterface;
+import android.net.Uri;
 import android.os.Environment;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -196,7 +197,11 @@ public class PhotoActivity extends AppCompatActivity implements SurfaceHolder.Ca
 
         // Envoi de l'image par mail le cas échéant
         if (send_mail){
-            //TODO: handle the email sendig
+            Intent mail_intent = new Intent();
+            mail_intent.setAction(Intent.ACTION_SEND);
+            mail_intent.putExtra(Intent.EXTRA_STREAM, Uri.parse("file://" + filename));
+            mail_intent.setType("image/*");
+            startActivity(Intent.createChooser(mail_intent, "Envoyer courriel..."));
         }
 
         // Close activity
