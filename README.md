@@ -5,6 +5,8 @@ Mini-projet Android de Gabriel Calassou et Amaury Zarzelli
 
 ### Manuel d'utilisation :
 
+Lancer l'APK GeoPhoto.apk
+
 La checkbox "Envoyer courriel" correspond à l'envoi d'un mèl après la prise d'une photo (appui sur le bouton "PHOTO")
 
 Si la position n'est pas activée **au lancement** de l'application, la position est aléatoire.
