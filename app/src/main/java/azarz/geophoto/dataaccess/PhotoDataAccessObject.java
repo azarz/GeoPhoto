@@ -5,6 +5,7 @@ import android.database.Cursor;
 
 import com.google.android.gms.maps.model.LatLng;
 
+import java.io.File;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -102,7 +103,14 @@ public class PhotoDataAccessObject {
         List<Photo> liste_Photo = new ArrayList<Photo>();
         cursor.moveToFirst();
         while (!cursor.isAfterLast()){
-            liste_Photo.add(new Photo(cursor.getInt(0), cursor.getString(1), cursor.getString(2), new LatLng(cursor.getDouble(3),cursor.getDouble(4))));
+            //Vérifie l'existence de la photo, la supprime de la BDD le cas échéant.
+            //Action normale sinon.
+            File f = new File(cursor.getString(2));
+            if(f.exists()) {
+                liste_Photo.add(new Photo(cursor.getInt(0), cursor.getString(1), cursor.getString(2), new LatLng(cursor.getDouble(3), cursor.getDouble(4))));
+            } else{
+                this.delete(new Photo(cursor.getInt(0), cursor.getString(1), cursor.getString(2), new LatLng(cursor.getDouble(3), cursor.getDouble(4))));
+            }
             cursor.moveToNext();
         }
         cursor.close();

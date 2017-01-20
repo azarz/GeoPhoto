@@ -77,6 +77,15 @@ public class GeoActivity extends FragmentActivity implements OnMapReadyCallback,
                 // App does not has required permissions
                 Toast.makeText(GeoActivity.this, "L'application n'a pas les autorisations nécessaires", Toast.LENGTH_LONG).show();
             }
+        //Si le network provider est activé, tout est normal
+        } else if(locationManager.isProviderEnabled(LocationManager.NETWORK_PROVIDER)) {
+                try {
+                    locationManager.requestLocationUpdates(LocationManager.NETWORK_PROVIDER, 1000, 0, locationListener);
+                    // App is running
+                } catch (SecurityException e) {
+                    // App does not has required permissions
+                    Toast.makeText(GeoActivity.this, "L'application n'a pas les autorisations nécessaires", Toast.LENGTH_LONG).show();
+                }
         //Sinon, on choisit une position aléatoire, sur une emprise proche de MLV
         } else {
             lastLocation = new Location("dummyprovider");
@@ -167,13 +176,13 @@ public class GeoActivity extends FragmentActivity implements OnMapReadyCallback,
                 double latit = 48.77;
                 double longit = 2.44;
 
-                //Si le GPS est actif, on agit normalement
-                if (locationManager.isProviderEnabled(LocationManager.GPS_PROVIDER)){
+                //Si le GPS ou le network provider est actif, on agit normalement
+                if (locationManager.isProviderEnabled(LocationManager.GPS_PROVIDER) || locationManager.isProviderEnabled(LocationManager.NETWORK_PROVIDER)){
                     latit = lastLocation.getLatitude();
                     longit = lastLocation.getLongitude();
 
-                //Si pas de GPS, on change la position aléatoire à chaque photo, et ce sur une emprise proche de MLV
-                } else if(!locationManager.isProviderEnabled(LocationManager.GPS_PROVIDER)) {
+                //Si pas de positionnement, on change la position aléatoire à chaque photo, et ce sur une emprise proche de MLV
+                } else if(!(locationManager.isProviderEnabled(LocationManager.GPS_PROVIDER) || locationManager.isProviderEnabled(LocationManager.NETWORK_PROVIDER))) {
 
                     //Génération aléatoire
                     Random r = new Random();
@@ -183,7 +192,6 @@ public class GeoActivity extends FragmentActivity implements OnMapReadyCallback,
                     latit = rLat;
                     longit = rLong;
                 }
-
                 Intent intent = new Intent(GeoActivity.this, PhotoActivity.class);
                 intent.putExtra("lat", latit);
                 intent.putExtra("lon", longit);
