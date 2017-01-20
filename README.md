@@ -3,7 +3,7 @@ Mini-projet Android de Gabriel Calassou et Amaury Zarzelli
 
 ![app/src/main/res/mipmap-hdpi/ic_launcher.png](app/src/main/res/mipmap-xxxhdpi/ic_launcher.png "Logo")
 
-
+### Manuel d'utilisation :
 
 La checkbox "Envoyer courriel" correspond à l'envoi d'un mèl après la prise d'une photo (appui sur le bouton "PHOTO")
 
