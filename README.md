@@ -1,5 +1,5 @@
 # GeoPhoto
-Mini-projet Android de Gabriel Calassou et Amaury Zarzelli
+Mini-projet Android
 
 ![app/src/main/res/mipmap-hdpi/ic_launcher.png](app/src/main/res/mipmap-xxxhdpi/ic_launcher.png "Logo")
 
